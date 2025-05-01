@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-900 text-white font-sans leading-relaxed tracking-wide">
+    <!-- Navbar -->
+    <header class="w-full p-4 bg-gray-800 fixed top-0 shadow-lg z-10">
+        <nav class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold">Portfolio</h1>
+            <ul class="flex space-x-4">
+                <li><a href="#about" class="hover:text-teal-400">About</a></li>
+                <li><a href="#projects" class="hover:text-teal-400">Projects</a></li>
+                <li><a href="#contact" class="hover:text-teal-400">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero min-h-screen flex flex-col justify-center items-center text-center" id="home">
+        <h2 class="text-4xl md:text-6xl font-bold mb-4 animate-fadeIn">Maheka</h2>
+        <p class="text-xl md:text-2xl text-gray-400 mb-8">Web Designer dan Game Developer</p>
+        <a href="#projects" class="px-6 py-3 bg-teal-500 rounded-lg shadow-lg hover:bg-teal-400 transition duration-300">See My Work</a>
+    </section>
+
+    <!-- About Section -->
+    <section class="py-20" id="about">
+        <div class="container mx-auto px-8 md:px-20">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-8">About Me</h2>
+            <p class="text-gray-400 text-center mb-4">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae veniam velit at consequuntur dolorem! Excepturi reiciendis quae ad, reprehenderit quisquam amet, quo doloribus ipsa ea, et harum suscipit velit. Aspernatur!
+            </p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="py-20 bg-gray-800" id="projects">
+        <div class="container mx-auto px-8 md:px-20">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-8">Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project Card -->
+                <div class="bg-gray-700 p-5 rounded-lg shadow-lg transform transition duration-300 hover:scale-105">
+                    <img src="image/memory game.png" a href="https://yukanakami.github.io/Memory-Games/" alt="Project Image" class="w-full h-48 object-cover rounded-lg mb-4">
+                    <h3 class="text-xl font-semibold mb-2">Memory Game</h3>
+                    <p class="text-gray-400">Sebuah Web Game yang Dapat Mengasah Otak</p>
+                </div>
+                <div class="bg-gray-700 p-5 rounded-lg shadow-lg transform transition duration-300 hover:scale-105">
+                    <a href="https://github.com/Yukanakami/Save-Our-Ocean-web.git"img src="image/Save Our Ocean.png" alt="Project Image" class="w-full h-48 object-cover rounded-lg mb-4">
+                    <h3 class="text-xl font-semibold mb-2">Save Our Ocean</h3>
+                    <p class="text-gray-400">Sebuah Web tentang Kepedulian mengenai Pencemaran Laut</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="py-20" id="contact">
+        <div class="container mx-auto px-8 md:px-20 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-8">Contact</h2>
+            <p class="text-gray-400 mb-8">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto magni expedita cum officiis, at neque veniam odio, nulla cumque tempora molestiae labore odit autem ad, quae beatae non. Ratione, exercitationem?</p>
+            <a href="mailto:example@example.com" class="px-6 py-3 bg-teal-500 rounded-lg shadow-lg hover:bg-teal-400 transition duration-300">Contact Me</a>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

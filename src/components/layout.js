@@ -41,7 +41,7 @@ export default function Layout({ children }) {
           <div className="md:hidden bg-gray-800 text-white flex flex-col space-y-4 py-4 px-6">
             <Link href="/" className="hover:text-gray-300">Home</Link>
             <Link href="/about" className="hover:text-gray-300">About</Link>
-            <Link href="/contact" className="hover:text-gray-300">Contact</Link>
+            <Link href="/contact" className="hover:text-gray-300">Halo</Link>
           </div>
         )}
       </header>
